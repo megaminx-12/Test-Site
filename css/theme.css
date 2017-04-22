@@ -39,6 +39,9 @@ header nav {
 	border: 1px solid #55913B;
 	display: flex;
 	justify-content: center;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 header .nav-item {
