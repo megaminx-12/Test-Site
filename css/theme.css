@@ -44,8 +44,17 @@ header nav {
 	transform: translateY(-50%);
 }
 
-header .nav-item {
+header p {
+	position: relative;
+	top: 4px;
+}
+
+.nav-item {
 	display: inline;
 	padding-right: 10px;
 	padding-left: 10px;
+}
+
+.nav-item:active {
+	top: 2px;
 }
