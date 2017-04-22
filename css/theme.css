@@ -6,8 +6,7 @@ body {
 	font-family: 'Rubik Mono One', sans-serif;
 	display: flex;
 	align-items: center;
-	/*background-image: url("http://i.imgur.com/jMBdG3I.jpg");*/
-	background-image: url("../img/stars.jpg");
+	background-image: url("../img/jumbo/stars.jpg");
 	background-size: cover;
 	text-shadow: 1px 1px 1px #fff;
 	margin: 0;
