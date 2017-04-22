@@ -62,5 +62,15 @@ header p {
 }
 
 .gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.meme {
+	margin: 10px;
+}
+
+.meme  .thumb{
 	
 }
