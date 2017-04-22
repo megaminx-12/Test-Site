@@ -79,9 +79,10 @@ header p {
 
 .meme {
 	margin: 10px;
-	border: 5px solid #FFEAEC;
+	display: flex;
+	justify-content: center;
 }
 
 .meme  .thumb{
-	
+	border: 5px solid #FFEAEC;
 }

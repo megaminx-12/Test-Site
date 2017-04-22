@@ -8,25 +8,25 @@ function main() {
 		$('.dank').hide();
 		$('.edgy').hide();
 		$('.old').hide();
-		$('.fresh').slideToggle(1000);
+		$('.fresh').fadeToggle(500);
 	});
 	$('#edgy-btn').on('click', function() {
 		$('.dank').hide();
 		$('.fresh').hide();
 		$('.old').hide();
-		$('.edgy').slideToggle(1000);
+		$('.edgy').fadeToggle(500);
 	});
 	$('#dank-btn').on('click', function() {
 		$('.edgy').hide();
 		$('.fresh').hide();
 		$('.old').hide();
-		$('.dank').slideToggle(1000);
+		$('.dank').fadeToggle(500);
 	});
 	$('#old-btn').on('click', function() {
 		$('.dank').hide();
 		$('.fresh').hide();
 		$('.edgy').hide();
-		$('.old').slideToggle(1000);
+		$('.old').fadeToggle(500);
 	});
 }
 $(document).ready(main);
