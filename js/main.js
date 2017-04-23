@@ -1,7 +1,7 @@
 function main() {
 	$('.edgy').hide();
 	$('.old').hide();
-	$('.fresh').hide();
+	$('.dank').hide();
 	
 	$('#fresh-btn').on('click', function() {
 		$('.dank').hide();
