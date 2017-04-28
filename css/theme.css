@@ -87,7 +87,9 @@ header p {
 	border: 5px solid #FFEAEC;
 }
 
+
 footer .row {
+	margin-top: 50px;
 	padding: 5px 0;
 	color: #FFEAEC;
 	background-color: #2C2535;
