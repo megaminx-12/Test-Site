@@ -86,3 +86,20 @@ header p {
 .meme  .thumb{
 	border: 5px solid #FFEAEC;
 }
+
+footer .row {
+	padding: 5px 0;
+	color: #FFEAEC;
+	background-color: #2C2535;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+footer a {
+	color: #FFEAEC;
+}
+footer a:active {
+	top: 2px;
+}
